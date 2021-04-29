@@ -88,4 +88,8 @@ h3 {
   margin-bottom: 2.6rem;
 }
 
+#Portfolio li p {
+  margin: 1rem 0.25rem;
+}
+
 /* ============= Media Queries ============= */
