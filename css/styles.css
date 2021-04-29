@@ -4,17 +4,40 @@
 }
 
 html {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body {
-  color: #454959;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   text-align: center;
+}
+
+body, a, a:visited {
+    color: #454959;
+}
+
+p {
+  color: #646875;
 }
 
 h1, h4 {
   font-family: 'Inknut Antiqua', serif;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin: 1rem 1rem 1.75rem;
+}
+
+a, h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 2rem;
 }
 
 ul {
@@ -22,12 +45,33 @@ ul {
   padding: 0;
 }
 
+header {
+  background-color: #fafafa;
+  margin-top: -1rem;
+  padding: 1rem;
+}
+
 nav li {
   display: block;
+  background-color: #fff;
+  margin-bottom: 0.25rem;
+  padding: .5rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
   width: 100%;
+}
+
+header img {
+  padding: 1.5rem;
+}
+
+header p {
+  color: #9999a5;
 }
 
 
