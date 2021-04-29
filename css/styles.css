@@ -1,78 +1,87 @@
 /* ============= Base Styles ============= */
-* {
-  box-sizing: border-box;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-html {
-  font-size: 18px;
-}
+  html {
+    font-size: 18px;
+  }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
 
-body, a, a:visited {
-    color: #454959;
-}
+  body, a, a:visited {
+      color: #454959;
+  }
 
-p {
-  color: #646875;
-}
+  p {
+    color: #646875;
+  }
 
-h1, h4 {
-  font-family: 'Inknut Antiqua', serif;
-}
+  a {
+    text-decoration: none;
+  }
 
-h1 {
-  font-size: 1.3rem;
-  margin: 1rem 1rem 1.75rem;
-}
+  img {
+    width: 100%;
+  }
 
-a, h2 {
-  text-transform: uppercase;
-  font-weight: 500;
+  h1, h4 {
+    font-family: 'Inknut Antiqua', serif;
+  }
+
+  a, h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+/* ============= Header ============= */
+  header {
+    background-color: #fafafa;
+    margin-top: -1rem;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    margin: 1rem 1rem 1.75rem;
+  }
+
+  nav li {
+    display: block;
+    background-color: #fff;
+    margin-bottom: 0.25rem;
+    padding: .5rem;
+  }
+
+  header img {
+    padding: 1.5rem;
+  }
+
+  header p {
+    color: #9999a5;
+  }
+
+/* ============= Main ============= */
+main {
+  margin: 1rem;
 }
 
 h2 {
   font-size: 1rem;
-  margin: 2rem;
+  margin: 2.25rem;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+h3 {
+  font-weight: 400;
 }
-
-header {
-  background-color: #fafafa;
-  margin-top: -1rem;
-  padding: 1rem;
-}
-
-nav li {
-  display: block;
-  background-color: #fff;
-  margin-bottom: 0.25rem;
-  padding: .5rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-}
-
-header img {
-  padding: 1.5rem;
-}
-
-header p {
-  color: #9999a5;
-}
-
 
 /* ============= Media Queries ============= */
