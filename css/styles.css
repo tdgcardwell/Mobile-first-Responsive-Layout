@@ -48,10 +48,14 @@
   }
 
 /* ============= Header ============= */
-  header {
+  header,
+  #Contact {         /*Hey Tom, remember _C_aptialization!! */
     background-color: #fafafa;
-    margin-top: -1rem;
     padding: 1rem;
+  }
+
+  header {
+    margin-top: -1rem;
   }
 
   h1 {
@@ -70,7 +74,8 @@
     padding: 1.5rem 2.5rem 0.5rem;
   }
 
-  header p {
+  header p,
+  #Contact p {
     color: #9999a5;
   }
 
@@ -88,12 +93,41 @@ h3 {
   font-weight: 400;
 }
 
-#Portfolio li {
+#Portfolio li,
+#Skills li {
   margin-bottom: 2.6rem;
 }
 
 #Portfolio li p {
   margin: 1rem 0.25rem;
+}
+
+#Skills li {
+  Padding: 1rem 0.3rem;
+}
+
+#Skills li,
+#Skills li p {
+  color: #fff;
+}
+
+/* Borrowing some colors from the profile img backgrounds */
+#Continual-Improvement {
+  background-color: #52bab4;
+}
+
+#Dual-Citizen {
+  background-color: #36acd0;
+}
+
+#Juggling {
+  background-color: #2472aa;
+}
+
+#Contact {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  border-bottom: 1px solid gray;
 }
 
 /* ============= Media Queries ============= */
