@@ -13,7 +13,9 @@
     text-align: center;
   }
 
-  body, a, a:visited {
+  body,
+  a,
+  a:visited {
       color: #454959;
   }
 
@@ -29,11 +31,13 @@
     width: 100%;
   }
 
-  h1, h4 {
+  h1,
+  h4 {
     font-family: 'Inknut Antiqua', serif;
   }
 
-  a, h2 {
+  a,
+  h2 {
     text-transform: uppercase;
     font-weight: 500;
   }
