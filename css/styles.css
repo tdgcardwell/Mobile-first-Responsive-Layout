@@ -50,7 +50,7 @@
 /* ============= Header ============= */
   header,
   #Contact,
-  footer {         /*Hey Tom, remember _C_aptialization!! */
+  footer {         /* Hey Tom, remember _C_aptialization!! */
     background-color: #fafafa;
     padding: 1rem;
   }
@@ -143,7 +143,7 @@ strong {
 footer {
   margin-top: -1rem;
   padding-top: 0;
-  padding-bottom: 2.5rem;
+  padding-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -159,12 +159,22 @@ h4 {
   font-size: 0.85rem;
 }
 
+#footer-nav {
+  display: none;
+}
+
 /* ============= Media Query One: 768px and wider ============= */
 @media (min-width:768px) {
+
+  header {
+    padding-top: 3rem;
+  }
+
   #Intro,
   nav ul,
   #Portfolio ul,
-  #Skills ul {
+  #Skills ul,
+  #footer-nav {
   display: flex;
   }
 
@@ -178,18 +188,21 @@ h4 {
 
   #Intro {
     text-align: left;
+  }
+
+  #Intro,
+  #Contact p {
     font-size: 1.25rem;
   }
 
   header p{
-    flex: 1;
+    flex-basis: 60%;
   }
 
   header img {
     width: 367px;
     padding: 1rem;
     order: 1;
-    flex: 1;
   }
 
   #Portfolio ul {
@@ -202,9 +215,32 @@ h4 {
     padding: 0 0.5rem;
   }
 
+  #Portfolio li p,
+  #Contact p {
+    width: 80%;
+    margin: auto;
+  }
+
   #Skills li {
     flex: 1;
     margin: 0.5rem;
+  }
+
+  #Contact {
+    margin-top: 3rem;
+  }
+
+  #Contact p {
+    margin-bottom: 2rem;
+  }
+
+  /* Switch out that navigation */
+  #rise-up {
+    display: none;
+  }
+
+  #footer-nav li {
+      padding: .5rem;
   }
 
 }
