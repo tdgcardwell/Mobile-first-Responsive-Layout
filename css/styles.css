@@ -49,7 +49,8 @@
 
 /* ============= Header ============= */
   header,
-  #Contact {         /*Hey Tom, remember _C_aptialization!! */
+  #Contact,
+  footer {         /*Hey Tom, remember _C_aptialization!! */
     background-color: #fafafa;
     padding: 1rem;
   }
@@ -127,7 +128,35 @@ h3 {
 #Contact {
   margin-left: -1rem;
   margin-right: -1rem;
-  border-bottom: 1px solid gray;
+}
+
+hr {
+  border-top: 1px solid #f1f1f3;
+  margin-top: 3.5rem;
+}
+
+strong {
+  font-weight: 500;
+}
+
+/* ============= Footer ============= */
+footer {
+  margin-top: -1rem;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  font-size: 0.85rem;
+  /* font-weight: 400; */
+}
+
+h4 {
+  margin: 0;
+  font-size: 0.85rem;
 }
 
 /* ============= Media Queries ============= */
