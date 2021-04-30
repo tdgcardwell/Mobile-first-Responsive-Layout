@@ -137,7 +137,7 @@ strong {
 /* ============= Footer ============= */
 footer {
   margin-top: -1rem;
-  padding-top: 0;
+  padding-top: 1rem;
   padding-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -292,6 +292,10 @@ h4 {
 
   #Portfolio li:hover {
     box-shadow: 0 0 2.25rem #cbd1d7;
+  }
+
+  #Portfolio li p {
+    width: 95%;
   }
 
   header {
