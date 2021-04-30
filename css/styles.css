@@ -267,7 +267,16 @@ h4 {
   #title-bar {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem; /*Put in the spacing*/
   }
+
+  h1 {
+    margin-left: 0; /*Was useful at narrower widths, now not so much.*/
+  }
+
+  header p {
+    margin-top: 0; /* To accomodate added spacing above.*/
+  }                /* And so p and img align w/ each other. */
 
   /*  No point having a hover state on a touch screen,
       So, I'll put that in here.*/
