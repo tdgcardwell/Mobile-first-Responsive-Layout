@@ -270,7 +270,28 @@ h4 {
 
   /*  No point having a hover state on a touch screen,
       So, I'll put that in here.*/
-  
+  a,
+  #Skills li,
+  #Portfolio li{
+    transition: all 0.3s ease;
+  }
+
+  a:hover {
+    color: #36acd0; /* Again, borrowing color from image.*/
+  }
+
+  #Skills li:hover {
+    background-color: #62717e; /* ... and again!*/
+  }
+
+  #Portfolio li {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  #Portfolio li:hover {
+    box-shadow: 0 0 2.25rem #cbd1d7;
+  }
 
   header {
     padding-bottom: 4rem;
