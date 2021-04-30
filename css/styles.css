@@ -159,4 +159,32 @@ h4 {
   font-size: 0.85rem;
 }
 
-/* ============= Media Queries ============= */
+/* ============= Media Query One: 768px and wider ============= */
+@media (min-width:768px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    background-color: inherit;
+  }
+
+  #Intro {
+    display: flex;
+    text-align: left;
+    font-size: 1.25rem;
+  }
+
+  header p{
+    flex: 1;
+  }
+
+  header img {
+    width: 367px;
+    padding: 1rem;
+    order: 1;
+    flex: 1;
+  }
+
+}
